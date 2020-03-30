@@ -1,16 +1,15 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi, my name is Bingo!</h1>
-      <p>I love to travel and my three dream destinations are </p>
-      <ul>
-        <li>Brazil</li>
-        <li>United Kingdom</li>
-        <li>Australia</li>
-      </ul>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
